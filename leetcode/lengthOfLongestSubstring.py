@@ -5,17 +5,16 @@ class Solution:
         maxLen = 0
         arr = list(s)
         for index,i in enumerate(arr):
-            if i not in arr[index-len+1:index]:
+            if i not in arr[index-len:index]:
+              #print(arr[index-len:index])
               len +=1
-              print(arr[index-len+1:index])
             else:
-              print(arr[index-len+1:index])
+              print(arr[index-len:index])
               maxLen = max(maxLen,len)
-              len = index - (arr[index-len+1:index].index(i) + index-len+1) 
-              print(len)
-        return maxLen 
+              len = index - (arr[index-len:index].index(i) + index-len) 
+        return max(maxLen,len) 
 
-str = 'hchzvfrkmlnozjk'
+str = 'qopubjguxhxdipfzwswybgfylqvjzhar'
 test = Solution()
 res = test.lengthOfLongestSubstring(str)
 print(res)
