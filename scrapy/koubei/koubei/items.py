@@ -10,6 +10,8 @@ import scrapy
 
 class KoubeiItem(scrapy.Item):
     # define the fields for your item here like:
-    title   = scrapy.Field()
-    comment = scrapy.Field()
-    truth   = scrapy.Field()
+    cate = scrapy.Field()
+    name = scrapy.Field()
+    url = scrapy.Field()
+    weight = scrapy.Field()
+    pr = scrapy.Field()

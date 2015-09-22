@@ -16,23 +16,44 @@ from misc.log import *
 
 class KouBeiSpider(CrawlSpider):
     name = "koubei"
-    allowed_domains = ["koubei.baidu.com"]
+    allowed_domains = ["mediarank.sootoo.com"]
     start_urls = [
-        "http://koubei.baidu.com/rank?nav=rank#13",
+        "http://mediarank.sootoo.com/index.php/index/brand_info/id/3",
     ]
     rules = [
         #Rule(sle(allow=("tag/[^/]+/?\?focus=book$", )), callback='parse_3',follow=True),
+        Rule(sle(allow=("index/brand_info/id", )), callback='parse_3',follow=True),
     ]
 
-    def parse(self, response):
+    def parse_1(self, response):
         items = []
         sel = Selector(response)
-        sites = sel.xpath('//div[@id="Pj_Rank_List"]/ul/li')
+        cate = sel.xpath("//div[@class='main_box']/h1/text()").extract()
+        sites = sel.xpath("//div[@class='main_box']/div[@class='fg']")
         for site in sites:
             item = KoubeiItem()
-            item['title'] = site.xpath('a/div/h3/text()').extract()
+            item['cate'] = cate 
+            item['name'] = site.xpath('div[2]/h3/a/text()').extract()
+            item['url'] = site.xpath('div[2]/h3/span/a/text()').extract()
+            item['weight'] = site.xpath('div[2]/p/span[1]/text()').extract()
+            item['pr'] = site.xpath('div[2]/p/span[2]/text()').extract()
             items.append(item)
-            print item
+        info('parsed ' + str(response))
+        return items
+
+    def parse_3(self, response):
+        items = []
+        sel = Selector(response)
+        cate = sel.xpath("//div[@class='main_box']/h1/text()").extract()
+        sites = sel.xpath("//div[@class='main_box']/div[@class='fg']")
+        for site in sites:
+            item = KoubeiItem()
+            item['cate'] = cate 
+            item['name'] = site.xpath('div[2]/h3/a/text()').extract()
+            item['url'] = site.xpath('div[2]/h3/span/a/text()').extract()
+            item['weight'] = site.xpath('div[2]/p/span[1]/text()').extract()
+            item['pr'] = site.xpath('div[2]/p/span[2]/text()').extract()
+            items.append(item)
         info('parsed ' + str(response))
         return items
 

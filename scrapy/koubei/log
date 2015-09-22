@@ -1,0 +1,155 @@
+2015-09-22 17:39:48+0800 [scrapy] INFO: Scrapy 0.24.6 started (bot: koubei)
+2015-09-22 17:39:48+0800 [scrapy] INFO: Optional features available: ssl, http11
+2015-09-22 17:39:48+0800 [scrapy] INFO: Overridden settings: {'AJAXCRAWL_ENABLED': True, 'NEWSPIDER_MODULE': 'koubei.spiders', 'SPIDER_MODULES': ['koubei.spiders'], 'LOG_LEVEL': 'INFO', 'BOT_NAME': 'koubei'}
+2015-09-22 17:39:48+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-22 17:39:48+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, CustomUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, AjaxCrawlMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-22 17:39:48+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-22 17:39:48+0800 [scrapy] INFO: Enabled item pipelines: JsonWithEncodingPipeline
+2015-09-22 17:39:48+0800 [koubei] INFO: Spider opened
+2015-09-22 17:39:48+0800 [koubei] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-22 17:39:48+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/35>
+2015-09-22 17:39:48+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/3?p=3>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/3?p=4>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/3?p=5>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/29>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/34>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/3>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/27>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/32>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/6>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/26>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/23>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/22>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/4>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/14>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/20>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/13>
+2015-09-22 17:39:49+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/29?p=2>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/11>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/34?p=2>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/8>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/10>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/6?p=3>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/32?p=3>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/27?p=2>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/6?p=2>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/3?p=1>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/32?p=2>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/23?p=3>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/7>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/4?p=2>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/23?p=2>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/4?p=3>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=6>
+2015-09-22 17:39:50+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/28>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/20?p=4>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/11?p=2>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/20?p=3>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/29?p=1>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/6?p=1>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/8?p=3>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/13?p=3>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/34?p=1>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/27?p=1>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/32?p=1>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/13?p=2>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/10?p=2>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/8?p=2>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/7?p=4>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/7?p=3>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/4?p=1>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/7?p=2>
+2015-09-22 17:39:51+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/20?p=1>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/20?p=2>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/11?p=1>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/28?p=3>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=1>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/28?p=2>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/14?p=3>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/8?p=1>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/3?p=2>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/13?p=1>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/23?p=1>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=5>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=4>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/14?p=2>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/7?p=1>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/10?p=1>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=2>
+2015-09-22 17:39:52+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/9>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/21>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/18>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/24>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/30>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/19>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=3>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/17>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/2>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/28?p=1>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=9>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=10>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/9?p=4>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/9?p=2>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/9?p=3>
+2015-09-22 17:39:53+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/24?p=2>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/21?p=5>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=7>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/21?p=2>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/21?p=3>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/21?p=4>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/30?p=2>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=13>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=6>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=4>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/9?p=5>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=5>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=3>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/14?p=1>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/17?p=2>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/19?p=2>
+2015-09-22 17:39:54+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/25?p=8>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/2?p=2>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/9?p=1>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/21?p=1>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=2>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/24?p=1>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/30?p=1>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=8>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=12>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=9>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=1>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=10>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=7>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/19?p=1>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/17?p=1>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/2?p=1>
+2015-09-22 17:39:55+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=14>
+2015-09-22 17:39:56+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=15>
+2015-09-22 17:39:57+0800 [scrapy] INFO: parsed <200 http://mediarank.sootoo.com/index.php/index/brand_info/id/31?p=11>
+2015-09-22 17:40:29+0800 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2015-09-22 17:40:29+0800 [koubei] INFO: Closing spider (shutdown)
+2015-09-22 17:40:31+0800 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2015-09-22 17:40:31+0800 [koubei] INFO: Dumping Scrapy stats:
+	{'downloader/exception_count': 1,
+	 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 1,
+	 'downloader/request_bytes': 43742,
+	 'downloader/request_count': 123,
+	 'downloader/request_method_count/GET': 123,
+	 'downloader/response_bytes': 907410,
+	 'downloader/response_count': 122,
+	 'downloader/response_status_count/200': 122,
+	 'dupefilter/filtered': 3972,
+	 'finish_reason': 'shutdown',
+	 'finish_time': datetime.datetime(2015, 9, 22, 9, 40, 31, 231334),
+	 'item_scraped_count': 1171,
+	 'log_count/INFO': 130,
+	 'request_depth_max': 5,
+	 'response_received_count': 122,
+	 'scheduler/dequeued': 123,
+	 'scheduler/dequeued/memory': 123,
+	 'scheduler/enqueued': 124,
+	 'scheduler/enqueued/memory': 124,
+	 'start_time': datetime.datetime(2015, 9, 22, 9, 39, 48, 682627)}
+2015-09-22 17:40:31+0800 [koubei] INFO: Spider closed (shutdown)
