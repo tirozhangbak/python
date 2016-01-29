@@ -1,5 +1,6 @@
 # This Python file uses the following encoding: utf-8
 import copy
+from pprint import pprint
 from itertools import *
 
 data={
@@ -92,5 +93,5 @@ res = apriori_gen( L[2] )
 L[3] = res 
 res = apriori_gen( L[3] )
 L[4] = res 
-print L
+pprint(L)
 
